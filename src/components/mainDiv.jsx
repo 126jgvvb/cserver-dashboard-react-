@@ -4,7 +4,7 @@ import {Gear} from "phosphor-react";
 import {Upload} from "phosphor-react";
 
 import { useDispatch, useSelector } from "react-redux";
-import { setProperty } from "C:/Users/SAVANA/react/spaceserver/src/redux/actions";
+import { setProperty } from "../redux/actions";
 
 import { TabDiv } from "./tabsDiv";
 import { DynamicDiv } from "./dynamicDiv";
