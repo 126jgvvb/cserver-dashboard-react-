@@ -1,0 +1,203 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.loginLayout{
+    background-color: whitesmoke;
+    height: 609px;
+    background-image: url('C:\Users\SAVANA\react\spaceserver\src\assets\login-image.jpg');
+}
+
+.loginLayout::-webkit-scrollbar{
+    display: none;
+}
+
+.loginCard{
+    top: 20%;
+    left: 10%;
+    width:80%;
+    height: 30%;
+    position: absolute;
+    background-color:rgb(56, 55, 55);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.loginLayout .loginCard label{
+    padding-bottom: 102px;
+    font-size: 20px;
+}
+
+
+.loginLayout .loginCard div{
+    margin-top: 40px;
+}
+
+
+
+.loginLayout .loginCard  input[type=text]{
+    border-radius: 12px;
+}
+
+
+.loginLayout .loginCard  button{
+   position: absolute;
+   top:100px;
+  
+    height: 20%;
+    left: 20%;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab-active{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.firstColumn{
+    z-index:1000;
+}
+
+.tab-inactive{
+    color: white;
+}
+
+.loggerDiv{
+    background-color:rgb(65, 59, 59);
+}
+
+
+
+.dynamicDiv{
+    height: 300px;
+    overflow: auto;
+    background-color:rgb(65, 59, 59);
+    border-radius: 20px;
+    color: white;
+}
+
+.behaviorHeaderH,.adminDetailsH,.tabDiv{
+    color: white;
+    border-radius: 20px;
+}
+
+
+.deleteBtn{
+    color: white;
+    border-radius: 7px;
+    margin:3px;
+}
+
+
+.downloadBtn{
+    border-radius: 5px;
+    color: white;
+ 
+}
+
+.navbar{
+    position:fixed;
+    width: 100%;
+    top: 0px;
+}
+
+
+.loggerDiv{
+    position: sticky;
+    width: 60%;
+    background-color:  rgb(62, 58, 58);
+    color: green;
+    height: 150px;
+    margin-left: 20%;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(165, 159, 159);
+}
+
+.loggerDiv .console{
+    position: absolute;
+    margin-top: 7px;
+ 
+    overflow: auto;
+    height: 130px;
+    background-color: black;
+  
+    margin-right: 40px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(165, 159, 159);
+    
+}
+
+.device-upload::-webkit-scrollbar {
+display: none;
+}
+
+.console::-webkit-scrollbar{
+    display: none;
+}
+
+.admin-uploads::-webkit-scrollbar{
+    display: none;
+}
+
+.server-state1{
+      background-color: rgb(90, 81, 81);
+        border-radius: 10px;
+        overflow: auto;
+        z-index: 300;
+    }
+
+    .server-state2{
+        background-color: black;
+        color: green;
+        position: absolute;
+        border-radius: 10px;
+        overflow: auto;
+    }
+
+    .server-state1 label{
+        margin-left: -30px;
+        align-content: center;
+        z-index: 12;
+    }
+
+    #viewport{
+        white-space: pre-wrap;
+    }
+
+   .server-state1 .Vfiles{
+        height: 30px;
+        background-color:rgb(113, 111, 111); 
+        border-radius: 20px;
+        z-index: 1;
+    }
+
+    .Vfiles label{
+        color: white;
+        height: inherit;
+    }
